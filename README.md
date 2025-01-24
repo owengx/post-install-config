@@ -21,7 +21,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure roles, departments, and teams
 - Choose who can create a ticket
 - Configure SLA 
-- Create a dummy ticket to understand the backend 
+- Create Help Topics (for when users create a ticket)
 
 <h2>Configuration Steps</h2>
 
@@ -42,14 +42,35 @@ Admin Panel -> Agents -> Roles. We will do the same process for adding departmen
 </p>
 <p>
 Navigating to the user settings. Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
-Registration Required: Require registration and login to create tickets. We have selected to require registration and login to create tickets. We do not want outside parties creating tickets for our employees.
+Registration Required: Require registration and login to create tickets. We have selected to require registration and login to create tickets. We do not want outside parties to create tickets for our employees.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7Ot07Se.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Navigate to Configure SLA
+Admin Panel -> Manage -> SLA. We will create 3 different SLAs based on the severity of the issue.
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+Sev-C (Grace Period: 8 hours, Business Hours)
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/spg2YyX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure Help Topics (For when users create a ticket)
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+Other
+
+
 </p>
 <br />
